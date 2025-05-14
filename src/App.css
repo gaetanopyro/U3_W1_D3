@@ -1,0 +1,8 @@
+body {
+  background-image: linear-gradient(135deg, #e0f2f7, #29b6f6);
+  background-repeat: no-repeat;
+}
+.img-card {
+  object-fit: cover;
+  aspect-ratio: 2/3;
+}
