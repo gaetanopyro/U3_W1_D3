@@ -9,7 +9,7 @@ const BookList = function (props) {
       <Row className="justify-content-center">
         {props.books.map((book) => (
           <Col xs={8} sm={6} md={4} lg={3} xxl={2} key={book.asin}>
-            <SingleBook key={book.asin} book={book} imageSrc={book.img} titleBook={book.title} />
+            <SingleBook key={book.asin} book={book} imageSrc={book.img} titleBook={book.title} cardId={book.asin} />
           </Col>
         ))}
       </Row>

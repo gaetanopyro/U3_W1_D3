@@ -16,7 +16,7 @@ function App() {
 
       <BookList books={scifi} />
       {/* <SingleBook imageSrc="https://images-na.ssl-images-amazon.com/images/I/91eGxsWGH7L.jpg" titleBook="Silver Silence (Psy-Changeling Trinity)" /> */}
-      <CommentArea />
+      {/* <CommentArea /> */}
       <MyFooter />
     </>
   );
