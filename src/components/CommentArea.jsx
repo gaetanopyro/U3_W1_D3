@@ -42,7 +42,7 @@ class CommentArea extends Component {
       <>
         <p>COMMENTI</p>
         <ListGroup as="ol" numbered>
-          <ListGroup.Item as="li">id=</ListGroup.Item>
+          <ListGroup.Item as="li">id: {this.props.asin}</ListGroup.Item>
         </ListGroup>
       </>
     );
